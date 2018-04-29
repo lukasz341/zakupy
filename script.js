@@ -57,7 +57,7 @@ function addTask(text) {
         todoText.innerText=text;
        todo.appendChild(todoText);
       
-      
+      /*
       
        //dodanie daty
        const dateElement = document.createElement('DIV');
@@ -67,7 +67,7 @@ function addTask(text) {
        dateElement.innerText= dateText;
        todo.appendChild(dateElement);
       
-     
+     */
      
       
        //dodanie przycisku usuń
