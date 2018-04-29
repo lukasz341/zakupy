@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Lista zakupów</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="todo-cnt">
+       
+            <form class="todo-form" id="todoForm">
+                <div class="todo-form-row">
+                    <label class="todo-form-label" for="todoMessage">Dodaj produkt</label>
+                    <textarea class="todo-form-message" name="todoMessage" id="todoMessage"></textarea>
+                </div>
+                <div class="todo-form-row">
+                        <button type="submit" class="button todo-form-button" id="todo-button">Dodaj</button>
+                </div>
+            </form>
+           
+           
+           
+           
+           
+            <section class="todo-list-cnt">
+                <header class="todo-list-header">
+                    <h2 class="todo-list-title">
+                        Lista zakupów
+                    </h2>
+                    <form class="todo-list-search-form">
+                        <input type="search" id="todoSearch" class="todo-list-search" placeholder="Wyszukaj">
+                        <button type="submit" class="button todo-form-button" id="clear-button">Wyczyść listę</button>
+                    </form>
+                   
+                </header>
+
+                <div class="todo-list" id="todoList">
+                    <!-- tutaj trafią zadania -->
+                </div>
+            </section>
+           
+           
+           
+        </div>
+       
+        <script src="script.js"></script>
+    </body>
+</html>
