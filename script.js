@@ -56,6 +56,8 @@ function addTask(text) {
        todoText.classList.add('todo-element-text');
         todoText.innerText=text;
        todo.appendChild(todoText);
+       const textareavalue = document.querySelector('#todoMessage');
+       textareavalue.value='';
       
       /*
       
